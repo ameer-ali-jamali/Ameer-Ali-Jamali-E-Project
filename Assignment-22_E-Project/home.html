@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Home</title>
+
+  <!-- Offline  Bootstrap  -->
+  <link rel="stylesheet" href="./bootstrap-5.2.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./bootstrap-5.2.0/css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="./bootstrap-5.2.0/css/bootstrap-grid.css">
+  <link rel="stylesheet" href="./bootstrap-5.2.0/css/bootstrap.css">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Fontawosome css -->
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.1.1/css/all.css">
+
+  <!-- Jquery -->
+  <script src="./js/jquery-Minified-3.6.0.js"></script>
+
+  <!--Own All css -->
+  <link rel="stylesheet" href="./all.css">
+  <link rel="stylesheet" href="./header-&-navbar.css">
+
+
+</head>
+
+<body>
+
+
+  <!-- 
+    =============
+    Header and navbar
+    ================== -->
+
+  <div id="dynamic-navbar"></div>
+
+  <br><br>
+  <br><br>
+
+  <!-- Carousel cards -->
+  <div class="container m-auto w-75 h-50">
+
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="3000">
+          <img src="./images/bg-img/bg-img-1.jpg" class="d-block w-100" alt="...">
+        </div>
+
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="./images/bg-img/bg-img-2.jpg" class="d-block w-100" alt="...">
+        </div>
+
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="./images/bg-img/black-suite-tie-bg-image-2.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="./images/bg-img/black-suite-tie-bg-image-3.jpg" class="d-block w-100" alt="...">
+        </div>
+
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="./images/bg-img/bg-img-3.jpg" class="d-block w-100" alt="...">
+        </div>
+
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="./images/bg-img/pink.skirt.jpg.jpg" class="d-block w-100" alt="...">
+        </div>
+
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="./images/bg-img/3-girls-home.jpg.jpg" class="d-block w-100" alt="...">
+        </div>
+
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="./images/bg-img/black-suite-tie-bg-image.jpg" class="d-block w-100" alt="...">
+        </div>
+
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="./images/bg-img/friends-home.jpg.jpg" class="d-block w-100" alt="...">
+        </div>
+
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="./images/bg-img/black-t-shirt.jpg.jpg" class="d-block w-100" alt="...">
+        </div>
+
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="./images/bg-img/smiling-girls-home.jpg.jpg" class="d-block w-100" alt="...">
+        </div>
+
+
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="./images/bg-img/track-pants-black.jpg" class="d-block w-100" alt="...">
+        </div>
+
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="./images/bg-img/white-t-shirt.jpg.jpg" class="d-block w-100" alt="...">
+        </div>
+
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="./images/bg-img/track-pants-blue-black.jpg" class="d-block w-100" alt="...">
+        </div>
+
+
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+
+
+  </div>
+
+
+
+
+
+
+
+
+  <br><br>
+
+
+
+
+
+
+
+
+
+  <br><br>
+
+  <!-- 
+    ================
+    Footer 
+    ======================== 
+    -->
+
+  <div id="dynamic-footer"></div>
+
+
+
+  <!-- Bootstrap JS Libraries -->
+  <script src="./bootstrap-5.2.0/js/bootstrap.min.js"></script>
+  <!-- Fontawosome kit -->
+  <script src="https://kit.fontawesome.com/245ede304f.js" crossorigin="anonymous"></script>
+  <script>
+
+    $(document).ready(function () {
+      $("#dynamic-navbar").load("header-&-navbar.html");
+      $("#dynamic-footer").load("footer.html");
+
+    });
+
+  </script>
+</body>
+
+</html>
